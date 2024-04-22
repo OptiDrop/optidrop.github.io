@@ -80,10 +80,14 @@
 
 						<!-- Content -->
 							<div id="content">
-								<article class="box post">
+							<div class="row aln-center">
+								<div class="col-6 col-12-medium">
 									<a href="#" class="image featured">
 										<img src="images/design.png" alt="" />
 									</a>
+								</div>
+							</div>
+								<article class="box post">
 									<p>There were many important concepts that were identified in customer discovery that needed to be addressed in the product design. The main points that were reciprocated by many of the glaucoma was issues with having to bend their neck back, issues with squeezing the bottle, and issues with dispensing too many drops causing medication to be wasted and to run out sooner, creating an out-of-pocket uninsured medical cost. Through empirical review of our customer discovery interviews, the most prevalent issue amongst glaucoma patients was the issue with dispensing too many drops, followed by their issue with squeezing the bottle, and lastly followed by issues with bending their neck back to apply medication at the correct angle. The design of the product should answer those customer needs in that order.</p>
 									<p>Design 1 was centered around being able to dispense the eyedrop medication completely autonomously. The idea revolved around a wearable device that when put on, calibrates to the users eye by remote sensing the cornea, and moving the dropper and constrictor to that exact location. Then using remote sensing again, a sensor reading would notify the device that the user’s eyes are open and not closed, and when the device is notified the drop immediately dispenses fully autonomously and hands free. This approach had many issues functionally though. This approach would still require the bending of the neck since users would need to wear a glasses like wearable, and since the drop had to be dispensed out of the prescribed dropper, and there could be no medium of storage in between the dropper and the eye due to FDA regulations, this product design still did not address one of the key needs for the customer base. This design was also not electronically feasible, as the heavy reliance on remote sensing made it very difficult to time things correctly, and this was realized during the testing of the LiDAR module, because it became apparent after extensive trials that it was nearly impossible to accurately and reliably identify the cornea. From here it became clear that full automation of this process may be out of reach using low cost electronic parts. But it also became clear what parts of the process needed to be manual or user assisted/prompted. Further comparison between the manual and automated dropped methods is analyzed in the decision matrix (Table 8) located in the appendix. The calibration for aiming the dropper and the squeezing of the bottle became the immediate needs for manual use, and the rest of the system was to be automated in the next design iteration.</p>
 									<p>Design 2 that was explored contained many of the components of the initial design, particularly the frame design around a wearable, sunglasses like device, that uses a constrictor to squeeze the eyedropper hands-free, and uses LiDAR to sense the amount of medication coming out of the eye dropper to control the constrictor to not dispense more than one drop. In this design iteration, the squeezing of the eye dropper was to be done manually by the user, and the aiming and aligning was dependent on finding the center of the eye by identifying the space between the eyelids by using a distance sensor, using radar rather than LiDAR. This process consisted of finding the top and bottom eyelids by identifying the change in distance that occurs between the tip of the eyelid and the beginning of the eye surface, which is slightly past the eyelid. Comparisons between using LiDAR and Radar in our design can be further analyzed in the decision matrix (Table 8) located in the appendix. This method of remote sensing was slightly more easy to work with programmatically, but still generally difficult and unpredictable when it came to aiming for the center of the eye. Issues that were prevalent were often due to the sampling rate and the resolution of the reading, as the radar module did not sample fast enough to keep up with the movement of the track that was doing the alignment of the dropper and constrictor, by the time the radar triggered the system to stop, the constrictor was often beyond the surface of the eye, particularly when calibrating up and down from top eyelid to bottom eyelid. This design, similar to the previous design, did not address the customer's need of not requiring the bending of the head back. This was an important customer request due to the age of the customer base.</p>
@@ -92,6 +96,41 @@
 								</article>
 							</div>
 
+					</div>
+			</div>
+			
+			<div id="main" class="wrapper style2">
+					<div class="title">Figures and Tables</div>
+					<div class="container">
+
+						<!-- Content -->
+							<div class="row aln-center">
+								<div class="col-6 col-12-medium">
+									<a href="#" class="image featured">
+											<img src="images/figure1.png" alt="" />
+									</a>
+								</div>
+								<div class="col-6 col-12-medium">
+									<a href="#" class="image featured">
+											<img src="images/table1.png" alt="" />
+									</a>
+								</div>
+								<div class="col-6 col-12-medium">
+									<a href="#" class="image featured">
+											<img src="images/table6.png" alt="" />
+									</a>
+								</div>
+								<div class="col-6 col-12-medium">
+									<a href="#" class="image featured">
+											<img src="images/table7.png" alt="" />
+									</a>
+								</div>
+								<div class="col-6 col-12-medium">
+									<a href="#" class="image featured">
+											<img src="images/table8.png" alt="" />
+									</a>
+								</div>
+							</div>
 					</div>
 			</div>
 
